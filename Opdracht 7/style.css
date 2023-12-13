@@ -1,9 +1,10 @@
 div{
     position: absolute;
-    width: 200px;
-    height: 200px;
-    background-color: rgb(255, 0, 0);
+    width: 1000px;
+    height: 600px;
     top: 50%;
-    left:40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: gray;
    
 }

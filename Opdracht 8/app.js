@@ -1,18 +1,19 @@
 let block = document.getElementById("block");
 let position = 0
+let vertical = 0
 
 window.addEventListener("keydown", function(e){
 
     if(e.key == "w"){
         console.log(e.key);
-        position -= 10
-        block.style.top = position + "px"
+        vertical -= 10
+        block.style.top = vertical + "px"
     }
     
     if(e.key == "s"){
         console.log(e.key);
-        position += 10
-        block.style.top = position + "px"
+        vertical += 10
+        block.style.top = vertical + "px"
     }
 
     if(e.key == "a"){
